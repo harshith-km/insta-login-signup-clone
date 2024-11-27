@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.left_component img{
+    width: 380px;
+}
+.right_component{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.login_container , .signup_container, .orDiv, .loginWithFacebook, .download_from{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login_container , .signup_container{
+    flex-direction: column;
+    width: 350px;
+    border:1px solid  rgb(219, 219, 219);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.login_container a{
+    margin-bottom: 15px;
+}
+.signupForm, .loginForm{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+input, button{
+    padding: 3px 8px; 
+    border-radius: 3px;
+}
+input{
+    background-color: rgba(250, 250, 250, 1);
+    border: 1px groove rgba(219, 219, 219, 0.5);
+    font-size: 15px;
+    
+}
+button{
+    margin: 5px 0 15px 0;
+    padding: 5px 8px;
+    font-size:medium;
+    background-color: rgb(0, 149, 246);
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.insta_logo {
+    width: 70%;
+    margin: 0;
+}
+
+.signupTag{
+    margin-bottom: 15px;
+    color: rgb(115, 115, 115);
+}
+.orDiv{
+    width: 100%;
+    gap: 10px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.orDiv .hrDiv{
+    width: 35%;
+    background-color: gray;
+    height: 1px;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.login_container a img{
+    width: 18px;
+    height: 18px;
+}
+.login_container a{
+    align-items: center;
+    display: flex;
+    color: rgb(0, 149, 246);
+}
+
+
+/* dont have/already have cls */
+.signup , .login{
+    width: 350px;
+    text-align: center;
+    padding: 20px;
+    border: 1px groove rgb(219, 219, 219);
+    border-radius: 5px;
+}
+.signup a, .login a{
+    color: rgb(0, 149, 246);
+    font-weight: 600;
+}
+
+/* login with facebook class css */
+.loginWithFacebook{
+    background-color: rgb(0, 149, 246);
+    padding: 3px 10px;
+    color: white;
+    border-radius: 5px;
+    width: 90%;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+.loginWithFacebook img{
+    padding: 2px;
+    width: 18px;
+    border-radius: 2px;
+    background-color: white;
+}
+.download_from{
+    flex-direction: column;
+    gap: 10px;
+    /* padding: 15px; */
+}
+.imgs img{
+    width: 150px;
+}
+
+small{
+    color: rgb(115, 115, 115);
+    text-align: center;
+    margin-bottom: 10px;
+}
+small a{
+    color: rgb(0, 55, 107);
+}
+footer{
+    text-align: center;
+    color: gray;
+    line-height: 35px;
+    font-size: 12px;
+
+}
+footer a{
+    margin-right: 10px;
+    color: gray;
+}
+footer a:hover{
+    text-decoration: underline;
+}

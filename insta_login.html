@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login · Instagram</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div class="left_component">
+            <img src="./img/insta_right_component.png" alt="">
+        </div>
+        <div class="right_component">
+            <div class="login_container">
+                <img class="insta_logo" src="./img/insta_logo.png" alt="" >
+                <form action="" class="loginForm"> 
+                    <input type="text" id="input_name" placeholder="Phone number, username, or email " required>
+                    <input type="password" name="" id="input_passwd" placeholder="Password" required>
+                    <button id="submit_btn">Log in</button>
+                </form>
+        
+                <span class="orDiv"><div class="hrDiv"></div> OR <div class="hrDiv"></div></span>
+        
+                <a href=""><img src="./img/facebook.png" alt=""><span>Login with Facebook</span></a>
+                <a href="#" style="color: rgb(0, 55, 107);">Forgot password?</a>
+            </div>
+            <div class="signup">
+                <p>Don't have an accout? <a href="./insta_signup.html">Sign up</a></p>
+            </div>
+    
+            <div class="download_from">
+                <p>Get the app.</p>
+                <div class="imgs">
+                    <a href="https://apps.apple.com/us/app/instagram/id389801252"><img src="./img/appstore.png" alt="Appstore" ></a>
+                    <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=en_IN"><img src="./img/playstore.png" alt="Playstore"></a>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a href="#">Meta</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Jobs</a>
+        <a href="#">Help</a>
+        <a href="#">API</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Locations</a>
+        <a href="#">Instagram Lite</a>
+        <a href="#">Threads</a>
+        <a href="#">Contact Uploading & Non-Users</a>
+        <a href="#">Meta Verified</a>
+        <p>English <span> © 2024 Instagram from Meta</a> </p> 
+    </footer>
+    
+    <script>
+        const submit_btn = document.getElementById('submit_btn');
+        submit_btn.addEventListener('click', function(e){
+            e.preventDefault();
+            window.location.href = 'home.html'
+        })
+    </script>
+    
+
+</body>
+</html>
